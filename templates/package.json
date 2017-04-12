@@ -1,0 +1,14 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "description": "A simple project",
+  "private": true,
+  "scripts": {
+    "dev": "gulp",
+    "prod": "gulp --production"
+  },
+  "devDependencies": {
+    "balm": "^0.6.0-beta.5",
+    "gulp": "^3.9.1"
+  }
+}
