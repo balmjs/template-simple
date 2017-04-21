@@ -4,6 +4,12 @@ var balm = require('balm');
 balm.config = {
   roots: {
     source: 'app'
+  },
+  paths: {
+    source: {
+      css: 'styles',
+      js: 'scripts'
+    }
   }
 };
 
