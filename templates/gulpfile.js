@@ -1,6 +1,5 @@
 var balm = require('balm');
 
-// https://github.com/balmjs/balm/blob/master/docs/configuration.md
 balm.config = {
   roots: {
     source: 'app'
@@ -8,9 +7,21 @@ balm.config = {
   paths: {
     source: {
       css: 'styles',
-      js: 'scripts'
+      js: 'scripts',
+      img: 'images'
+    }
+  },
+  styles: {
+    ext: 'css', // PostCSS
+    autoprefixer: ['last 2 versions']
+  },
+  scripts: {
+    entry: {
+      main: './app/scripts/main.js' // entry js file
     }
   }
+  // More Config
+  // https://github.com/balmjs/balm/blob/master/docs/configuration.md
 };
 
 balm.go();
