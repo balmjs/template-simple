@@ -12,12 +12,12 @@ balm.config = {
     }
   },
   styles: {
-    ext: 'css', // PostCSS
-    autoprefixer: ['last 2 versions']
+    ext: 'css', // Default use PostCSS
+    autoprefixer: ['last 1 version']
   },
   scripts: {
     entry: {
-      main: './app/scripts/main.js' // entry js file
+      main: './app/scripts/main.js' // Entry js file
     }
   }
   // More Config
