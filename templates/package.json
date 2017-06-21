@@ -8,7 +8,7 @@
     "prod": "gulp --production"
   },
   "devDependencies": {
-    "balm": "^0.7.0",
+    "balm": "^0.7.1",
     "gulp": "^3.9.1"
   }
 }
