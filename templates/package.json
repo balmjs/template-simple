@@ -8,8 +8,8 @@
     "prod": "gulp --production"
   },
   "devDependencies": {
-    "babel-eslint": "^7.2.3",
-    "balm": "^0.8.6",
+    "babel-eslint": "^8.0.0",
+    "balm": "^0.9.1",
     "gulp": "^3.9.1"
   }
 }
