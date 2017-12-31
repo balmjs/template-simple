@@ -4,13 +4,13 @@
 ## Installation
 
 ```sh
-npm install -g balm-cli
+npm i -g balm-cli
 balm init simple my-project
 
 cd my-project
-yarn install
+yarn
 # or
-npm install
+npm i
 ```
 
 ## Enjoy
