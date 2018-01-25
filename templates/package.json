@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
-    "balm": "0.15.2",
+    "balm": "0.16.1",
     "gulp": "^3.9.1"
   }
 }
