@@ -1,4 +1,5 @@
 ## BalmJS template - simple
+
 > A simple project
 
 ## Installation
