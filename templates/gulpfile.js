@@ -1,3 +1,5 @@
+// Documentation - http://balmjs.com/docs/en/configuration/toc.html
+// 中文文档 - http://balmjs.com/docs/zh-cn/configuration/toc.html
 var balm = require('balm');
 
 balm.config = {
@@ -21,8 +23,6 @@ balm.config = {
     }
   }
   // More Config
-  // Documentation - http://balmjs.com/docs/en/configuration/toc.html
-  // 中文文档 - http://balmjs.com/docs/zh-cn/configuration/toc.html
 };
 
 balm.go();
