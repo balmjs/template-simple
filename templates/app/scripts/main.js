@@ -1,1 +1,1 @@
-console.log('Hello BalmJS - http://balmjs.com/');
+console.log('Hello BalmJS - https://balmjs.com/');
