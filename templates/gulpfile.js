@@ -1,6 +1,6 @@
 // Documentation - http://balmjs.com/docs/en/configuration/toc.html
 // 中文文档 - http://balmjs.com/docs/zh-cn/configuration/toc.html
-var balm = require('balm');
+const balm = require('balm');
 
 balm.config = {
   roots: {
