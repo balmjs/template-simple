@@ -20,6 +20,9 @@ balm.config = {
   scripts: {
     entry: {
       main: './app/scripts/main.js' // Entry js file
+    },
+    alias: {
+      '@': path.resolve(__dirname, '../app/scripts')
     }
   }
   // More Config
