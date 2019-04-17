@@ -1,7 +1,8 @@
-// Documentation - http://balmjs.com/docs/en/configuration/toc.html
-// 中文文档 - http://balmjs.com/docs/zh-cn/configuration/toc.html
+const path = require('path');
 const balm = require('balm');
 
+// Documentation - http://balmjs.com/docs/en/configuration/toc.html
+// 中文文档 - http://balmjs.com/docs/zh-cn/configuration/toc.html
 balm.config = {
   roots: {
     source: 'app'
