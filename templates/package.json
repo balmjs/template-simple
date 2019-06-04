@@ -2,15 +2,15 @@
   "name": "my-project",
   "version": "4.0.0",
   "description": "A simple project",
-  "private": true,
   "scripts": {
     "dev": "gulp --silent",
     "prod": "gulp --silent --production"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
-    "balm": "^1.3.2",
+    "balm": "^1.5.1",
     "eslint": "^5.16.0",
-    "gulp": "^4.0.0"
-  }
+    "gulp": "^4.0.2"
+  },
+  "private": true
 }
