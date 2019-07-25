@@ -8,8 +8,8 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.0.2",
-    "balm": "^1.5.7",
-    "eslint": "^6.0.1",
+    "balm": "^1.7.0",
+    "eslint": "^6.1.0",
     "gulp": "^4.0.2"
   },
   "private": true
