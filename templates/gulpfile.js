@@ -13,7 +13,7 @@ balm.config = {
   scripts: {
     entry: './app/scripts/index.js',
     alias: {
-      '@': path.resolve(__dirname, '../app/scripts')
+      '@': path.resolve(__dirname, 'app/scripts')
     }
   }
   // More Config
