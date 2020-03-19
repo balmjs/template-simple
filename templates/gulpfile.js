@@ -1,3 +1,4 @@
+/* eslint-env node */
 const balm = require('balm');
 const path = require('path');
 
