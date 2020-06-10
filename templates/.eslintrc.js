@@ -2,14 +2,16 @@
 
 module.exports = {
   root: true,
+  parser: 'babel-eslint',
   parserOptions: {
-    parser: 'babel-eslint',
-    ecmaVersion: 2019,
+    ecmaVersion: 2020,
     sourceType: 'module'
   },
   env: {
-    browser: true
+    browser: true,
+    jest: true
   },
+  extends: ['eslint:recommended'],
   // add your custom rules here
   rules: {
     // allow debugger during development
