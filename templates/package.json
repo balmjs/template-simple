@@ -4,15 +4,14 @@
   "description": "{{ description }}",
   "author": "{{ author }}",
   "scripts": {
-    "dev": "gulp --silent",
-    "prod": "gulp --silent -p",
+    "dev": "balm",
+    "prod": "balm -p",
     "test": "jest"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "balm": "^2.22.0",
+    "balm": "^3.0.0-beta.9",
     "eslint": "^7.5.0",
-    "gulp": "^4.0.2",
     "jest": "^26.1.0"
   },
   "private": true
