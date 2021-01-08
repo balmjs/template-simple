@@ -10,9 +10,10 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "balm": "^3.0.0",
-    "eslint": "^7.6.0",
-    "jest": "^26.2.2"
+    "babel-jest": "^26.6.0",
+    "balm": "^3.9.0",
+    "eslint": "^7.0.0",
+    "jest": "^26.6.0"
   },
   "private": true
 }
