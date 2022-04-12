@@ -1,19 +1,30 @@
 const path = require('path');
 
+const workspace = __dirname;
+
+function resolve(dir) {
+  return path.join(workspace, dir);
+}
+
+const appRoot = 'app';
+
 // Documentation - https://balm.js.org/docs/config/
 // 中文文档 - https://balm.js.org/docs/zh/config/
 module.exports = {
   roots: {
-    source: 'app'
+    source: appRoot
   },
   styles: {
     extname: 'css' // Default use PostCSS
   },
   scripts: {
-    entry: './app/scripts/index.js',
+    entry: `./${appRoot}/scripts/index.js`,
     alias: {
-      '@': path.resolve(__dirname, 'app/scripts')
+      '@': resolve(`${appRoot}/scripts`)
     }
+  },
+  assets: {
+    cache: true
   }
   // More Config
 };
