@@ -11,7 +11,7 @@
   "devDependencies": {
     "@babel/eslint-parser": "^7.17.0",
     "babel-jest": "^27.0.0",
-    "balm": "^3.22.0",
+    "balm": "^4.5.0",
     "eslint": "^8.0.0",
     "jest": "^27.0.0"
   },
