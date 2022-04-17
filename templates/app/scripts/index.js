@@ -1,6 +1,3 @@
-import config from './config';
+import { showDemo } from './demo';
 
-const { name, homepage } = config;
-const message = `Hello ${name} - ${homepage}`;
-
-console.log(message);
+showDemo();
