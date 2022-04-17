@@ -1,12 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-html,
-body {
-  height: 100%;
-}
+@import './_reset.css';
 
 .container {
   display: flex;
@@ -23,5 +15,9 @@ body {
   & img {
     width: 100px;
     height: 100px;
+  }
+
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
   }
 }

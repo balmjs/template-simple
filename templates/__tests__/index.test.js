@@ -1,4 +1,4 @@
-import config from '@/config';
+import { config } from '@/demo';
 
 // Place your tests here.
 describe('The name', () => {
